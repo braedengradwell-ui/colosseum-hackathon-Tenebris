@@ -1,4 +1,4 @@
-# Scotopia Backend
+# Tenebris Backend
 
 A demo backend for Scotopia that listens for HumidiFi deposit events and mints soulbound IOU tokens. Built for hackathon demonstrations with support for mock, Ethereum, and Solana modes.
 
@@ -333,5 +333,5 @@ For questions or issues, please open a GitHub issue.
 
 ---
 
-Built for Scotopia Hackathon 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+Built for Colosseum Hackathon 🏴󠁧󠁢󠁳󠁣󠁴
 
