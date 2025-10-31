@@ -1,0 +1,35 @@
+{
+  "mode": "mock",
+  "port": 3001,
+  "ethereum": {
+    "rpcUrl": "",
+    "contractAddress": "",
+    "chainId": 11155111
+  },
+  "solana": {
+    "rpcUrl": "https://api.devnet.solana.com",
+    "programId": ""
+  },
+  "security": {
+    "adminApiKey": "",
+    "rateLimit": {
+      "windowMs": 60000,
+      "max": 100
+    }
+  },
+  "database": {
+    "path": "./data/scotopia.db"
+  },
+  "privacy": {
+    "tiers": [
+      { "name": "Tier A", "threshold": 100 },
+      { "name": "Tier B", "threshold": 10 },
+      { "name": "Tier C", "threshold": 1 }
+    ]
+  },
+  "mock": {
+    "eventIntervalMin": 5000,
+    "eventIntervalMax": 10000
+  }
+}
+

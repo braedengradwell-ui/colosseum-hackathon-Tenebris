@@ -1,0 +1,10 @@
+[
+  "function mintAttestation(address to, string memory metadataUri) external returns (uint256)",
+  "function mintTier(address to, uint256 tierId) external returns (uint256)",
+  "function tokenURI(uint256 tokenId) external view returns (string memory)",
+  "function totalSupply() external view returns (uint256)",
+  "function exists(uint256 tokenId) external view returns (bool)",
+  "event AttestationMinted(address indexed to, uint256 indexed tokenId, string metadataUri, string tier)",
+  "event Deposit(address indexed user, uint256 amount, string token, uint256 timestamp)"
+]
+
